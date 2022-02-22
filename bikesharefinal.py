@@ -61,7 +61,7 @@ def get_filters():
             print(' ')
             day = input("Please enter the day of the week for which you would like to analyze the data.Please enter 'all' if you don't want to filter by day: ").lower()
 
-    print('-'*40)
+    print('-'*50)
     return city, month, day
 
 
