@@ -36,7 +36,7 @@ def get_filters():
 
     print('  ')
     # get user input for month (all, january, february, ... , june)
-    month = input("Plese enter the month for which you would like to analyze the data from january to june. Please enter 'all' if you don't want to filter by month: ").lower()
+    month = input("Plese enter a month from january to june. Please enter 'all' if you don't want to filter by month: ").lower()
     while True:
         if month in months:
             print('  ')
@@ -49,7 +49,7 @@ def get_filters():
             month = input("Plese enter the month for which you would like to analyze the data from january to june. Please enter 'all' if you don't want to filter by month: ").lower()
     print('  ')
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    day = input("Please enter the day of the week for which you would like to analyze the data.Please enter 'all' if you don't want to filter by day: ").lower()
+    day = input("Please enter a day of the week.Please enter 'all' if you don't want to filter by day: ").lower()
     while True:
         if day in days:
             print('  ')
@@ -61,7 +61,7 @@ def get_filters():
             print(' ')
             day = input("Please enter the day of the week for which you would like to analyze the data.Please enter 'all' if you don't want to filter by day: ").lower()
 
-    print('-'*40)
+    print('-'*50)
     return city, month, day
 
 
