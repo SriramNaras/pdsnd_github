@@ -36,7 +36,7 @@ def get_filters():
 
     print('  ')
     # get user input for month (all, january, february, ... , june)
-    month = input("Plese enter the month for which you would like to analyze the data from january to june. Please enter 'all' if you don't want to filter by month: ").lower()
+    month = input("Plese enter a month from january to june. Please enter 'all' if you don't want to filter by month: ").lower()
     while True:
         if month in months:
             print('  ')
