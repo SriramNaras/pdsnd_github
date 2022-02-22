@@ -13,4 +13,4 @@ This project facilitates obtaining different stats on usage of shared bikes in 3
 The bike usage data from the 3 cities as CSV files
 
 ### Credits
-None
+Thanks to Udacity team for guiding me to finish this project
